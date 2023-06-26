@@ -1,9 +1,12 @@
 import React from "react";
+import MainLayout from "../layout";
+import Navbar from "../components/navbar";
 
 const HomePage = () => {
   return (
-    <div className="w-[100%] h-[100vh] relative">
-    </div>
+    <MainLayout>
+        <Navbar/>
+    </MainLayout>
   );
 };
 
